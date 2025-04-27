@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF0F0"
+    android:padding="24dp">
+
+<EditText
+android:id="@+id/donarname"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Donor Name"
+
+    android:textColor="#000000"
+    android:backgroundTint="#D32F2F"
+    android:inputType="text"
+    android:padding="12dp"
+    android:layout_marginBottom="16dp" />
+
+<EditText
+android:id="@+id/editTextBloodType"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Blood Type (e.g., O+)"
+
+android:textColor="#000000"
+android:backgroundTint="#D32F2F"
+android:inputType="text"
+android:padding="12dp"
+android:layout_marginBottom="16dp" />
+
+<EditText
+android:id="@+id/editTextLocation"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Location"
+
+android:textColor="#000000"
+android:backgroundTint="#D32F2F"
+android:inputType="text"
+android:padding="12dp"
+android:layout_marginBottom="16dp" />
+
+<EditText
+android:id="@+id/editTextUrgency"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Urgency (e.g., Critical)"
+
+android:textColor="#000000"
+android:backgroundTint="#D32F2F"
+android:inputType="text"
+android:padding="12dp"
+android:layout_marginBottom="16dp" />
+
+<EditText
+android:id="@+id/disease"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Any disease (if any)"
+
+android:textColor="#000000"
+android:backgroundTint="#D32F2F"
+android:inputType="text"
+android:padding="12dp"
+android:layout_marginBottom="24dp" />
+
+<Button
+android:id="@+id/buttonSubmitDonation"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Submit Blood Donation Request"
+android:textColor="#FFFFFF"
+android:backgroundTint="#C62828"
+    android:padding="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:elevation="4dp" />
+
+    </LinearLayout>

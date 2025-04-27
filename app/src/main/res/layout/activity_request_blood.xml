@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textViewRequestBlood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request Blood"
+        android:textSize="24sp"
+        android:textColor="#E53935"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/editTextBloodType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Blood Type"
+        android:inputType="text"
+        android:layout_marginBottom="20dp"
+        android:padding="12dp"
+       />
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Location"
+        android:inputType="text"
+        android:layout_marginBottom="20dp"
+        android:padding="12dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextUrgency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Urgency (e.g., Emergency)"
+        android:inputType="text"
+        android:layout_marginBottom="40dp"
+        android:padding="12dp"
+        />
+
+    <Button
+        android:id="@+id/buttonSubmitRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Request"
+        android:backgroundTint="#E53935"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

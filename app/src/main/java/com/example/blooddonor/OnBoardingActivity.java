@@ -21,7 +21,7 @@ public class OnBoardingActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                startActivity(new Intent(OnBoardingActivity.this, MainActivity.class));
+                startActivity(new Intent(OnBoardingActivity.this,MainActivity.class));
                 finish();
             }
         }, DELAY_MILLIS);
